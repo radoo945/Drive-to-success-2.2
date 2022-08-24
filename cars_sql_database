@@ -1,0 +1,26 @@
+DROP TABLE csv_cars
+CREATE TABLE csv_cars(
+     Price NUMERIC NOT NULL,
+     Year NUMERIC NOT NULL,
+     Manufacturer VARCHAR(500),
+     Model VARCHAR (500),
+     Mileage NUMERIC NOT NULL,
+     Fuel VARCHAR(50),
+     Transmission VARCHAR(50)
+);
+SELECT * FROM csv_cars
+-----------------------------------
+--TO CREATE A SECOND TABLE CAR NAME, PRICE, BODY, MILES, ENGINE VOLUME,
+DROP TABLE scrapping_cars
+CREATE TABLE scrapping_cars(
+      Model VARCHAR(50),
+      Price VARCHAR (50) NULL,
+      Year VARCHAR (100) NOT NULL,
+      Body VARCHAR(50),
+      Mileage VARCHAR (50) NOT NULL,
+      Engine_volume VARCHAR(50),
+      Engine_power VARCHAR(50),
+      Transmission VARCHAR(50),
+      Fuel VARCHAR (50)
+);
+SELECT * FROM scrapping_cars
